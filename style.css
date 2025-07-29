@@ -1,0 +1,114 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+
+/* Historic Maratha Navbar Theme */
+.custom-navbar {
+  background-color: #7b1212; /* deep red maratha tone */
+  font-family: 'Baloo 2', cursive;
+  border-bottom: 3px solid #ff9900;
+}
+
+
+
+/* Logo image */
+.logo-img {
+  border: 2px solid #ff9900;
+  border-radius: 50%;
+  background: white;
+  padding: 4px;
+}
+
+.navbar-brand span {
+  font-family: 'Mangal', 'Marathi', serif;
+  letter-spacing: 0.5px;
+}
+
+.navbar-brand:hover span:first-child {
+  color: #ff0000;
+  border-color: #ff0000;
+  transition: all 0.3s ease;
+}
+
+/* Marathi styled title */
+.logo-heading h1, .logo-heading h2 {
+  font-family: 'Baloo 2', cursive;
+  margin: 0;
+  line-height: 1.1;
+}
+
+/* underline & color for पन्हाळगडचा */
+.text-maratha {
+  color: #ffc107;
+  border-bottom: 2px solid #ffc107;
+  display: inline-block;
+}
+
+/* Offcanvas background */
+.bg-maratha {
+  background-color: #5c0d0d;
+}
+
+/* Nav links */
+.nav-link {
+  font-size: 20px;
+  color: #f8f9fa !important;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff9900 !important;
+  text-decoration: underline;
+}
+.nav-link.text-warning.fw-bold:hover {
+  color: #ff4500 !important;
+  text-decoration: underline;
+}
+
+.navbar a .fab {
+  transition: 0.3s ease;
+}
+
+.navbar a:hover .fa-facebook-f { color: #1877f2; }
+.navbar a:hover .fa-instagram { color: #e1306c; }
+.navbar a:hover .fa-whatsapp  { color: #25d366; }
+.navbar a:hover .fa-youtube   { color: #ff0000; }
+
+.video-section h2 {
+  font-family: 'Mangal', 'Marathi', serif;
+  letter-spacing: 1px;
+}
+
+.video-section video {
+  border: 2px solid #dc3545;
+}
+
+.imghovr:hover{
+  transform: translatey(-10px);
+  transition: 0.5s;
+}
+
+.hovr:hover{
+  transform: translatey(-10px);
+  transition: 0.5s;
+}
+
+  .social-icon-light:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    color: #d6a419 !important;
+  }
+
+  footer iframe {
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    footer h5, footer h6 {
+      font-size: 1.1rem;
+    }
+    footer p, footer blockquote {
+      font-size: 0.9rem;
+    }
+  }
+
+  
